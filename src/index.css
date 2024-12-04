@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Orbitron", sans-serif;
+}
+
+.nav {
+  list-style: none;
+  li:hover {
+    color: aqua;
+    text-decoration: underline;
+    scale: 1.3;
+  }
+}
