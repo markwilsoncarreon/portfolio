@@ -7,11 +7,11 @@ import project5 from "../assets/projects/project-5.png";
 
 const Projects = () => {
   return (
-    <div className="h-full w-[80%] p-10 text-white ">
+    <div className="flex flex-col justify-center items-center h-full  text-slate-400 ">
       <div className="flex justify-center mb-10">
         <p className="text-6xl">Projects</p>
       </div>
-      <div className="flex flex-col gap-8 font-mono">
+      <div className="lg:flex flex-col flex-wrap gap-8 font-mono">
         <a href="https://web.xlog.net/" target="_blank">
           <div className="flex gap-8 justify-center items-center">
             <motion.img

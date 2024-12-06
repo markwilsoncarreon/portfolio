@@ -11,9 +11,9 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col my-8 text-center w-full gap-8 px-8 text-white">
+    <div className="px-8 gap-8 flex flex-col justify-center items-center text-slate-400">
       <p className="text-6xl">Tech Stacks</p>
-      <div className="flex justify-center gap-4 text-7xl">
+      <div className="gap-4 text-7xl lg:flex">
         <motion.div
           initial={{ y: -10 }}
           animate={{
@@ -25,10 +25,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="HTML5"
         >
-          <FaHtml5 className="text-orange-500" />
+          <FaHtml5 className="text-orange-500 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -41,10 +40,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="CSS3"
         >
-          <FaCss3Alt className="text-blue-500" />
+          <FaCss3Alt className="text-blue-500 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -57,10 +55,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="JavaScript"
         >
-          <IoLogoJavascript className="text-yellow-400" />
+          <IoLogoJavascript className="text-yellow-400 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -73,10 +70,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="ReactJS"
         >
-          <RiReactjsLine className="text-cyan-400" />
+          <RiReactjsLine className="text-cyan-400 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -89,10 +85,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="Angular"
         >
-          <FaAngular className="text-red-500" />
+          <FaAngular className="text-red-500 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -105,10 +100,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="TailwindCSS"
         >
-          <RiTailwindCssFill className="text-cyan-400" />
+          <RiTailwindCssFill className="text-cyan-400 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -121,10 +115,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="TypeScript"
         >
-          <TbBrandTypescript className="text-blue-400" />
+          <TbBrandTypescript className="text-blue-400 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -137,7 +130,6 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="Shadcn UI"
         >
           <SiShadcnui />
@@ -153,10 +145,9 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="React hook forms"
         >
-          <SiReacthookform className="text-pink-400" />
+          <SiReacthookform className="text-pink-400 p-2 border-2 border-gray-500 rounded-xl" />
         </motion.div>
         <motion.div
           initial={{ y: -10 }}
@@ -169,7 +160,6 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="Zod"
         >
           <SiZod />
@@ -185,7 +175,6 @@ const Skills = () => {
               repeatType: "reverse",
             },
           }}
-          className="p-2 border-2 border-gray-500 rounded-xl"
           title="Git"
         >
           <FaGitSquare />
